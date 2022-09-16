@@ -1,0 +1,150 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: none;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a {
+	color: inherit;
+}
+a:link,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+img{
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+input,
+button,
+textarea {
+	font-family: inherit;
+	font-size: inherit;
+}
+button {
+	cursor: pointer;
+	color: inherit;
+	background-color: inherit;
+}
+body {
+	line-height: 1;
+}
+
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Bold.woff2") format("woff2"), url("../fonts/CircularStd-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Book.woff2") format("woff2"), url("../fonts/CircularStd-Book.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+body {
+   font-family: Lato;
+}
+.header {
+   margin-top: 20px;
+   margin-bottom: 70px;
+   text-align: center;
+}
+.container {
+   max-width: 1200px;
+   margin: 0 auto;
+}
+.header-content {
+   
+   margin-bottom: 60px;
+   font-size: 20px;
+   color: #1E212C;
+   line-height: 2;
+}
+.header-logo {
+}
+.header-menu {
+   color: #424551;
+   font-weight: 700;
+   line-height: 1.6;
+}
+.header-item {
+}
+.block {
+   
+
+}
+.block-title {
+   text-shadow: 1px 1px 5px black;
+   color: #1E212C;
+   font-size: 64px;
+   font-weight: 900;
+   letter-spacing: 1px;
+   line-height: 1.2;
+   margin-bottom: 20px;
+}
+.block-text {
+   font-size: 20px;
+   color: #1E212C;
+   line-height: 2;
+   text-transform: capitalize;
+   text-indent: 20px;
+   letter-spacing: 2px;
+}
+.block-text__underline {
+   text-decoration: underline;
+}
+.block-text__through {
+   text-decoration: line-through;
+}
+.block-foto {
+   margin: 40px 0;
+
+}
+.block-foto_item {
+   margin-right: 20px;
+}
+
+.section {
+   font-family: "CircularStd";
+   text-align: center;
+}
+
+.section-title {
+   text-shadow: 5px 5px 20px pink;
+   font-size: 64px;
+   font-weight: bold;
+   color: #313131;
+   letter-spacing: 7px;
+   margin-bottom: 20px;
+   
+   
+}
+.section-text {
+   text-transform: uppercase;
+   font-size: 20px;
+   line-height: 1.2;
+   margin-bottom: 20px;
+}
+.section-foto {
+}
